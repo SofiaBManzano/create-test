@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include desktop {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+  }
+
+  &__container {
+    height: 80px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--img {
+      width: 45px;
+      margin: 5px;
+    }
+    &--title {
+      margin: 5px;
+    }
+  }
+}
