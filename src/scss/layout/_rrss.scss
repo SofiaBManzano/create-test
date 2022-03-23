@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   &__container {
-    background-color: rgb(150, 66, 46);
+    background-color: $brown-button;
     display: flex;
     justify-content: space-around;
     padding: 15px;

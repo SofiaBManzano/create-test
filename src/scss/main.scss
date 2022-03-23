@@ -1,22 +1,14 @@
 @import "core/variables";
+@import "core/global";
 @import "core/reset";
 @import "components/code";
 @import "components/links";
 @import "layout/page";
 @import "layout/header";
 @import "layout/nav";
+@import "layout/nav-button";
 @import "layout/footer";
 @import "pages/index";
 @import "layout/section1";
 @import "layout/section2";
 @import "layout/rrss";
-
-.page__main {
-  @include desktop {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(231, 230, 230);
-    justify-content: center;
-    width: 100%;
-  }
-}

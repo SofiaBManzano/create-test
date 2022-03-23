@@ -1,0 +1,16 @@
+.page {
+  @include desktop {
+    height: 100vh;
+  }
+
+  &__main {
+    @include desktop {
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(231, 230, 230);
+      justify-content: center;
+      width: 100%;
+      height: 80vh;
+    }
+  }
+}

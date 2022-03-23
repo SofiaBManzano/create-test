@@ -15,14 +15,14 @@
     &.line-left {
       margin-top: 10px;
       margin-bottom: 10px;
-      border-left: solid rgb(202, 202, 202) 4px;
+      border-left: solid $light-gray 4px;
       padding-left: 20px;
       margin-left: 20px;
     }
   }
 
   &.line {
-    border-top: solid 1px gray;
-    border-bottom: solid 1px gray;
+    border-top: solid 1px $dark-gray;
+    border-bottom: solid 1px $dark-gray;
   }
 }

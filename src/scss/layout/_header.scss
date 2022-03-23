@@ -7,12 +7,13 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: orange;
+    background-color: $color-secondary;
+    height: 10vh;
   }
 
   &__container {
     height: 80px;
-    background-color: orange;
+    background-color: #ff993e;
     display: flex;
     align-items: center;
     justify-content: center;

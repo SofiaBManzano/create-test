@@ -1,7 +1,7 @@
 .section2 {
   display: none;
-  background-color: green;
-  height: 500px;
+  background-color: $green;
+
   @include desktop {
     display: inline;
     width: 30%;
@@ -12,7 +12,7 @@
   }
   &__rectangle {
     margin: 10px;
-    background-color: orange;
+    background-color: $color-secondary;
     width: 250px;
     height: 150px;
   }
