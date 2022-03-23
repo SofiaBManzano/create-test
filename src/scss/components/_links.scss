@@ -1,6 +1,8 @@
 .text:hover {
-  background-color: #e74c3c;
-  color: #fff;
+  @include desktop {
+    background-color: #e74c3c;
+    color: #fff;
+  }
 }
 
 .link__github:hover {

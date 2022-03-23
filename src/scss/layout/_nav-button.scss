@@ -1,31 +1,5 @@
 .list__item {
   width: 100%;
-
-  @include desktop {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  &--1 {
-    text-align: center;
-    display: block;
-    height: 100%;
-  }
-  &--2 {
-    height: 100%;
-    text-align: center;
-    display: block;
-    color: white;
-  }
-  &--3 {
-    height: 100%;
-    text-align: center;
-    display: block;
-    color: white;
-    @include desktop {
-      background-color: yellow;
-    }
-  }
 }
 .text {
   background-color: $red-buttons;
@@ -35,7 +9,15 @@
   align-items: center;
   justify-content: center;
   @include desktop {
-    width: 100%;
-    background-color: rgb(244, 127, 255);
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: $red-buttons;
+    transition: 0.5s;
   }
+}
+.btn {
+  height: 100%;
+  text-align: center;
+  display: block;
+  color: white;
 }

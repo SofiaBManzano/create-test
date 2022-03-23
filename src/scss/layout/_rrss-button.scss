@@ -1,0 +1,30 @@
+.rrss__item {
+  width: 20%;
+  //   background-color: $brown-button;
+  @include desktop {
+    width: 70%;
+  }
+}
+
+.btn {
+  //   background-color: $brown-button;
+  display: block;
+  color: white;
+  @include desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.rrss-text {
+  background-color: $brown-button;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  @include desktop {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    padding: 2px;
+  }
+}
