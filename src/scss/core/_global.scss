@@ -8,9 +8,6 @@
   }
 
   &__main {
-    // @include tablet {
-    //   height: 80vh;
-    // }
     @include desktop {
       display: flex;
       flex-direction: row;
