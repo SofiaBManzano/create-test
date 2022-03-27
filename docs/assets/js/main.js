@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";const input=document.querySelector(".js-input"),btn=document.querySelector(".js-btn"),title=document.querySelector(".js-title"),reset=document.querySelector(".js-reset"),handleBtnClick=e=>{e.preventDefault();const t=input.value;title.innerHTML=t},handleReset=e=>{e.preventDefault(),title.innerHTML="LayoutDeEjemplo"};btn.addEventListener("click",handleBtnClick),reset.addEventListener("click",handleReset);

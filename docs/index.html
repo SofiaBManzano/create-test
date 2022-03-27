@@ -3,63 +3,167 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Create test</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="icon" href="./assets/images/logo.png" />
   </head>
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+      <header class="header">
+        <aside class="header__container">
+          <img
+            class="header__container--img"
+            src="./assets/images/logo.png"
+            alt="create"
+          />
+          <h1 class="header__container--title js-title">LayoutDeEjemplo</h1>
+        </aside>
+        <nav class="header__container--links">
+          <ul class="list">
+            <li class="list__item">
+              <a class="list__item--1 btn" href="#" target="_blank"
+                ><p class="text">Link1</p></a
+              >
+            </li>
+
+            <li class="list__item">
+              <a class="list__item--2 btn" href="#" target="_blank"
+                ><p class="text">Link2</p></a
+              >
+            </li>
+
+            <li class="list__item">
+              <a class="list__item--3 btn" href="#" target="_blank"
+                ><p class="text">Link3</p></a
+              >
+            </li>
+
+            <li class="list__item">
+              <a class="list__item--4 btn" href="#" target="_blank"
+                ><p class="text">Link4</p></a
+              >
+            </li>
+
+          </ul>
+        </nav>
+
       </header>
 
       <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <section class="section1">
+          <article class="article">
+            <h2 class="article__title">Lorem ipsum dolor sit amet</h2>
+            <p class="article__description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque qui sunt
+              obcaecati, velit, est voluptatum cumque, veniam adipisci molestias ducimus
+              quae. Nemo reiciendis illo consectetur possimus repellat fugit iusto
+              quaerat.
+            </p>
+          </article>
+          <article class="article line">
+            <h2 class="article__title">Lorem ipsum dolor sit amet</h2>
+            <p class="article__description line-left">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque qui sunt
+              obcaecati, velit, est voluptatum cumque, veniam adipisci molestias ducimus
+              quae. Nemo reiciendis illo consectetur possimus repellat fugit iusto
+              quaerat.
+            </p>
+          </article>
+          <article class="article">
+            <h2 class="article__title">Lorem ipsum dolor sit amet</h2>
+            <p class="article__description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque qui sunt
+              obcaecati, velit, est voluptatum cumque, veniam adipisci molestias ducimus
+              quae. Nemo reiciendis illo consectetur possimus repellat fugit iusto
+              quaerat.
+            </p>
+          </article>
+          <article class="input">
+            <aside class="input__container">
+              <label class="input__label" for="changeTitle">Customiza tu web</label
+              ><input
+                placeholder="Ej: Lorem web"
+                class="input__label--input js-input"
+                type="text"
+                id="text"
+                name="text"
+              />
+              <aside class="input__containerBtn">
+                <button class="input__containerBtn--btn js-btn">Cambiar</button>
+                <button type="reset" class="input__containerBtn--btn js-reset">
+                  Reset
+                </button>
+              </aside>
+            </aside>
+          </article>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+        </section>
 
-          </li>
-        </ul>
+        <section class="section2">
+          <div class="section2__rectangle"></div>
+          <div class="section2__rectangle"></div>
+        </section>
+
       </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <footer class="footer">
+        <nav class="header__container--links">
+          <ul class="list">
+            <li class="list__item">
+              <a class="list__item--1 btn" href="#" target="_blank"
+                ><p class="text">Link1</p></a
+              >
+            </li>
 
-        </small>
+            <li class="list__item">
+              <a class="list__item--2 btn" href="#" target="_blank"
+                ><p class="text">Link2</p></a
+              >
+            </li>
+
+            <li class="list__item">
+              <a class="list__item--3 btn" href="#" target="_blank"
+                ><p class="text">Link3</p></a
+              >
+            </li>
+
+            <li class="list__item">
+              <a class="list__item--4 btn" href="#" target="_blank"
+                ><p class="text">Link4</p></a
+              >
+            </li>
+
+          </ul>
+        </nav>
+
+        <nav>
+          <ul class="rrss">
+            <li class="rrss__item">
+              <a class="rrss__item--fb btn" href="#" target="_blank"
+                ><p class="rrss-text">fb</p></a
+              >
+            </li>
+
+            <li class="rrss__item">
+              <a class="rrss__item--tw btn" href="#" target="_blank"
+                ><p class="rrss-text">tw</p></a
+              >
+            </li>
+
+            <li class="rrss__item">
+              <a class="rrss__item--g+ btn" href="#" target="_blank"
+                ><p class="rrss-text">g+</p></a
+              >
+            </li>
+
+          </ul>
+        </nav>
+
       </footer>
 
     </div>
