@@ -1,9 +1,16 @@
 .page {
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+  }
   @include desktop {
     height: 100vh;
   }
 
   &__main {
+    // @include tablet {
+    //   height: 80vh;
+    // }
     @include desktop {
       display: flex;
       flex-direction: row;

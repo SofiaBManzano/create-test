@@ -5,7 +5,8 @@
   }
 }
 
-.link__github:hover {
-  background-color: #ccc;
-  color: #000;
+.rrss-text:hover {
+  @include desktop {
+    background-color: #8d4a10;
+  }
 }

@@ -1,13 +1,12 @@
 .rrss {
   display: flex;
   justify-content: center;
-  width: 100%;
-  margin-top: 10px;
-  @include desktop {
-    display: flex;
-    background-color: aqua;
-    justify-content: center;
-    width: 200%;
-    height: 50px;
-  }
+  // background-color: aqua;
+  // @include desktop {
+  //   display: flex;
+  //   background-color: aqua;
+  //   justify-content: center;
+  //   width: 200%;
+  //   height: 50px;
+  // }
 }
